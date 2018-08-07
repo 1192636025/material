@@ -9,22 +9,25 @@
 *
 */
 
-
 /********* Top Cards CSS BEGIN *************/
 .main-pic {
 	height: 360px;
 	object-fit: cover;
 }
+
 .top-card {
 	height: 360px;
 }
+
 .top-card > .mdui-card-actions {
 	height: 64px;
 }
+
 .top-card > .mdui-card-actions > .main-logo-title {
 	margin-left: 8px;
 	font-size: 16px;
 }
+
 .main-logo {
 	height: 200px !important;
 	width: 200px !important;
@@ -33,16 +36,12 @@
 }
 
 /*********** Top Cards CSS END *************/
-
-
 .mdui-row > [class*="mdui-col-"] {
 	padding-top: 4px;
 	padding-bottom: 4px;
-
 }
 
 .index-post-card-media > picture > img {
-
 	max-height: 250px;
 	height: 250px;
 	object-fit: cover;
@@ -58,9 +57,7 @@
 	padding-bottom: 30px;
 }
 
-
 /********* Search Container CSS BEGIN **********/
-
 .main-search {
 	display: none;
 	z-index: 5002;
@@ -87,11 +84,13 @@
 	font-size: 16px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:1024px) {
 	.main-search .main-search-form-wrapper > .main-search-form > input.text {
 		width: 720px;
 	}
+
 }
+
 .main-search .main-search-form-wrapper {
 	display: inline-block;
 	padding: 8px 12px;
@@ -101,8 +100,8 @@
 
 /************ Search Container CSS END **********/
 
-
 /*********** Animation CSS BEGIN **********/
+
 /*Swash IN*/
 .swashIn {
 	-webkit-animation-name: swashIn;
@@ -126,6 +125,7 @@
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 	}
+
 }
 
 @keyframes swashIn {
@@ -144,6 +144,7 @@
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 	}
+
 }
 
 /*Expand*/
@@ -164,4 +165,5 @@
 		-webkit-transform: scale(1, 1);
 		transform: scale(1, 1);
 	}
+
 }
